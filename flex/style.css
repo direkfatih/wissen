@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*NAVBAR*/
+
+.navbar{
+    display: flex;
+    height: 70px;
+    background-color: #343434;
+    color: white;
+
+}
+.navbar a{
+    color: white;
+}
+
+.navbar-left {
+    display: flex;
+    justify-content: flex-start;
+    flex: 1;
+    height: 70px;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.navbar-right{
+    display: flex;
+    justify-content: flex-end;
+    flex:4;
+    height: 70px;
+    align-items: center;
+}
+
+.navbar-right a{
+    text-decoration: none;
+    margin: 40px;
+}
+
+/*HEADER */
+
+.header{
+    justify-content: space-evenly;
+    display: flex;
+    height: 800px;
+    align-items: center;
+}
+
+.header-left{
+    justify-content: center;
+    flex: 1;
+    align-items: center;
+}
+
+.header-left img{
+    width: 100%;
+    margin-left: 50px;
+}
+
+.header-right{
+    margin-right: 15px;
+    flex: 2;
+}
+
+
+.header-right p{
+    text-align: left;
+    justify-content: flex-end;
+}
+
+/*MAİN*/
+
+.main-baslik{
+    display: flex;
+    flex: 1;
+    background-color: #343434;
+    height: 60px;
+    justify-content: center;
+    color: white;
+    padding-top: 18px;
+
+}
+
+.main{
+    justify-content: space-evenly;
+    display: flex;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-box {
+    height: 250px;
+    width: 18%;
+}
+  
+.main-box img {
+    width: 100%;
+}
+
+.main-alt{
+    justify-content: space-around;
+    display: flex;
+    height: 300px;
+    align-items: center;
+}
+
+.main-alt img{
+    height: 250px;
+     width: 30%;
+}
+
+.main {
+    margin-top: 10px;
+}
+  
+.main-top {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+  
+.main-top img {
+    margin-left: 60px;
+    margin-right: 60px;
+    height: 300px;
+}
+
+.main-bot{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-bottom: 60px;
+    margin-left: 20px;
+}
+.main-bot img{
+    margin-right: 20px;
+    height: 300px;
+}
+
+/*FOOTER*/
+
+.footer{
+    background-color: #343434;
+    height: 100px;
+}
+
+.footer-left h3{
+    display: flex;
+    flex: 1;
+    color: white;
+    margin-left: 150px;
+    margin-top: 10px;
+}
+
+.footer{
+    color: white;
+}
+
+.footer-left p{
+    display: flex;
+    flex: 1;
+    color: white;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.footer-left h3{
+    padding-top: 30px;
+}
+
+.footer-center{
+    color: white;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+  
